@@ -47,6 +47,3 @@ PriceRangeStack: This class implements a stack that supports constant time range
 StockMarketAnalysis: This class is the main class of the system. It contains a collection of Stock objects and uses PriceRangeStack to analyze the historical price data of each stock. It has methods to add and remove Stock objects from the collection, get the highest and lowest prices of a stock within a specified time range, and generate reports on stock performance.
 
 With this object-oriented design, we can easily add new features to the system in the future, such as adding more types of financial instruments (e.g., bonds, futures, options), adding more analysis tools (e.g., moving averages, technical indicators), and integrating with external data sources (e.g., news feeds, social media sentiment analysis).
-
-
-![img.png](src/output.png)
